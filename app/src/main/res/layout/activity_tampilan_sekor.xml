@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TampilanSekor">
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="29dp"
+        android:onClick="Tambah"
+        android:text="Satu Point"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="42dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="147dp"
+        android:layout_marginTop="29dp"
+        android:text="Dua Point"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="42dp"
+        android:onClick="Tambah"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="275dp"
+        android:layout_marginTop="30dp"
+        android:text="Tiga Point"
+        tools:layout_editor_absoluteX="286dp"
+        tools:layout_editor_absoluteY="42dp"
+        android:onClick="Tambah"/>
+
+    <Button
+        android:id="@+id/btnReset2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="99dp"
+        android:layout_marginTop="337dp"
+
+        android:text="RESET PERHITUNGAN"
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="272dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="547dp"
+        android:text="SATU POINT"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="555dp"
+        android:onClick="Tambah"/>
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="146dp"
+        android:layout_marginTop="546dp"
+        android:onClick="Tambah"
+        android:text="DUA POINT"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="555dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="278dp"
+        android:layout_marginTop="546dp"
+        android:onClick="Tambah"
+        android:text="TIGA POINT"
+        tools:layout_editor_absoluteX="286dp"
+        tools:layout_editor_absoluteY="555dp" />
+
+    <TextView
+        android:id="@+id/texttim1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="144dp"
+        android:layout_marginTop="110dp"
+        android:text="Point Tiam A"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="115dp"
+        />
+
+    <TextView
+        android:id="@+id/papansekor2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="184dp"
+        android:layout_marginTop="408dp"
+        android:text="0"
+        android:textSize="50dp"
+        tools:layout_editor_absoluteX="206dp"
+        tools:layout_editor_absoluteY="169dp" />
+
+    <TextView
+        android:id="@+id/texttim2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="151dp"
+        android:layout_marginTop="492dp"
+        android:text="Point Tim B"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="169dp"
+        tools:layout_editor_absoluteY="496dp" />
+
+    <TextView
+        android:id="@+id/papansekor1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="188dp"
+        android:layout_marginTop="154dp"
+        android:text="0"
+        android:textSize="50dp"
+        tools:layout_editor_absoluteX="206dp"
+        tools:layout_editor_absoluteY="407dp" />
+
+    <Button
+        android:id="@+id/btnReset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="102dp"
+        android:layout_marginTop="253dp"
+        android:text="RESET PERHITUNGAN"
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="341dp" />
+</RelativeLayout>
